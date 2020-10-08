@@ -16,11 +16,9 @@ body {
 h1, h2 {
     font-family: 'DM Serif Display', "Times New Roman", serif;
 }
-
 h1 {
   text-align: center;
 }
-
 #tagline {
     font-style: italic;
     text-align: center;
@@ -66,21 +64,18 @@ header {
     background: #fff; /* keep */
     font-size: 1.3rem;
 }
-
 #arial {
     grid-area: arial; /* keep */
     background: #a8e8ff; /* keep */
     padding: 2.5rem .6rem .7rem .5rem;
     font-size: .8rem;
 }
-
 #georgia {
     grid-area: georgia; /* keep */
     background: #a8e8ff; /* keep */
     padding: 2.5rem .6rem .7rem .5rem;
     font-size: .8rem;
 }
-
 #pairing {
     grid-area: pairing; /* keep */
     background: #a8e8ff; /* keep */
@@ -88,14 +83,12 @@ header {
     margin: 0;
     font-size: 1.2rem;
 }
-
 #bobwhite-quail {
     grid-area: bobwhite-quail; /* keep */
     background: #d2f4ff; /* keep */
     padding: 2.7rem 1.5rem 2rem 2.75rem;
     font-size: .8rem;
 }
-
 #readability {
     grid-area: readability; /* keep */
     background: #d2f4ff; /* keep */
@@ -131,6 +124,7 @@ footer {
     grid-area: footer; /* keep */
     background: #b2988a; /* keep */
     text-align: center;
+    padding: 0rem 1.3rem;
 }
 
 /* end of all 10 grid items */
@@ -148,7 +142,7 @@ a:hover {
 
 /* media queries below - only 1 is needed */
 
-@media (max-width: 375px) {
+@media (max-width: 620px) {
   #container {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(9, auto);
@@ -208,6 +202,6 @@ a:hover {
       line-height: 1.1rem;
   }
   footer {
-      padding: 1rem 0rem;
+      padding: .5rem 0rem;
   }
 }
